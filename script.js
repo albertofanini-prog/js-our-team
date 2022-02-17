@@ -45,7 +45,7 @@ const team = [
 const group = document.querySelector('.team-container');
 
 //Generare l'elemento e inserirlo
-for (let i = 1; i <= team.length; i++){
+for (let i = 0; i <= team.length; i++){
     group.innerHTML += `
     <div class="team-card">
             <div class="card-image">
